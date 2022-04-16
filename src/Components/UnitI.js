@@ -3,10 +3,10 @@ import Fade from "react-reveal";
 import Smile from "../assets/image/smile.jpg";
 import { MAIN_HEADER } from "../Constants/ConstantsHeader";
 import { UNIT_1 } from "../Constants/ConstantsUnits";
-import { useNavigate } from "react-router-dom";
+//import { useNavigate } from "react-router-dom";
 
 export default function UnitI() {
-  var navigate = useNavigate();
+  //var navigate = useNavigate();
   return (
     <section id="unitI">
       <Fade duration={1000}>
@@ -22,12 +22,9 @@ export default function UnitI() {
             <div className="row">
               <div className="columns download">
                 <p>
-                  <button
-                    className="button"
-                    onClick={() => navigate("/servicio-social-app/unit-drawer")}
-                  >
+                  <a href={"/"} className="button">
                     <i className="fa fa-download"></i>Ir a la unidad
-                  </button>
+                  </a>
                 </p>
               </div>
             </div>
