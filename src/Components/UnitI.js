@@ -24,7 +24,7 @@ export default function UnitI() {
                 <p>
                   <button
                     className="button"
-                    onClick={() => navigate("/unit-drawer")}
+                    onClick={() => navigate("/servicio-social-app/unit-drawer")}
                   >
                     <i className="fa fa-download"></i>Ir a la unidad
                   </button>
