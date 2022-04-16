@@ -1,0 +1,472 @@
+/*
+=====================================================================
+*   Ceevee v1.0 Layout Stylesheet
+*   url: styleshout.com
+*   03-18-2014
+=====================================================================
+
+   TOC:
+   a. General Styles
+   b. Header Styles
+   c. unitI Section
+   d. Resume Section
+   e. Portfolio Section
+   f. Call To Action Section
+   g. Testimonials Section
+   h. Contact Section
+   i. Footer
+
+===================================================================== */
+
+/* ------------------------------------------------------------------ */
+/* a. General Styles
+/* ------------------------------------------------------------------ */
+
+body { background: #0f0f0f; }
+
+/* ------------------------------------------------------------------ */
+/* b. Header Styles
+/* ------------------------------------------------------------------ */
+
+header {
+   position: relative;
+   height: 800px;
+   min-height: 500px;
+   width: 100%;
+   
+   text-align: center;
+   overflow: hidden;
+}
+
+/* vertically center banner section */
+header:before {
+   content: '';
+   display: inline-block;
+   vertical-align: middle;
+   height: 100%;
+}
+header .banner {
+   display: inline-block;
+   vertical-align: middle;
+   margin: 0 auto;
+   width: 85%;
+   padding-bottom: 30px;
+   text-align: center;
+}
+
+header .banner-text { width: 100%; }
+header .banner-text h1 {
+   font: 90px/1.1em 'opensans-bold', sans-serif;
+   color: #fff;
+   letter-spacing: -2px;
+   margin: 0 auto 18px auto;
+}
+header .banner-text h3 {
+   font: 18px/1.9em 'librebaskerville-regular', serif;
+   color: #ddd;
+   margin: 0 auto;
+   width: 70%;
+}
+header .banner-text h3 span,
+header .banner-text h3 a {
+   color: #fff;
+}
+header .banner-text hr {
+   width: 60%;
+   margin: 18px auto 24px auto;
+   border-color: #2F2D2E;
+   border-color: rgba(150, 150, 150, .1);
+}
+
+/* header social links */
+header .social {
+   margin: 24px 0;
+   padding: 0;
+   font-size: 30px;
+}
+header .social li {
+   display: inline-block;
+   margin: 0 15px;
+   padding: 0;
+}
+header .social li a { color: #fff; }
+header .social li a:hover { color: #0762f9; }
+
+/* scrolldown link */
+header .scrolldown a {
+   position: absolute;
+   bottom: 30px;
+   left: 50%;
+   margin-left: -29px;
+   color: #fff;
+   display: block;
+   height: 42px;
+   width: 42px;
+   font-size: 42px;
+   line-height: 42px;
+   color: #fff;
+   border-radius: 100%;
+
+   -webkit-transition: all .3s ease-in-out;
+   -moz-transition: all .3s ease-in-out;
+   -o-transition: all .3s ease-in-out;
+   transition: all .3s ease-in-out;
+}
+header .scrolldown a:hover { color: #0762f9; }
+
+/* primary navigation
+--------------------------------------------------------------------- */
+#nav-wrap ul, #nav-wrap li, #nav-wrap a {
+	 margin: 0;
+	 padding: 0;
+	 border: none;
+	 outline: none;
+}
+
+/* nav-wrap */
+#nav-wrap {
+   font: 12px 'opensans-bold', sans-serif;
+   width: 100%;
+   text-transform: uppercase;
+   letter-spacing: 2.5px;
+   margin: 0 auto;
+   z-index: 100;
+   position: fixed;
+   left: 0;
+   top: 0;
+}
+.opaque { background-color: #333; }
+
+/* hide toggle button */
+#nav-wrap > a.mobile-btn { display: none; }
+
+ul#nav {
+   min-height: 48px;
+   width: auto;
+
+   /* center align the menu */
+   text-align: center;
+}
+ul#nav li {
+   position: relative;
+   list-style: none;
+   height: 48px;
+   display: inline-block;
+}
+
+/* Links */
+ul#nav li a {
+
+/* 8px padding top + 8px padding bottom + 32px line-height = 48px */
+
+   display: inline-block;
+   padding: 8px 13px;
+   line-height: 32px;
+	text-decoration: none;
+   text-align: left;
+   color: #fff;
+
+	-webkit-transition: color .2s ease-in-out;
+	-moz-transition: color .2s ease-in-out;
+	-o-transition: color .2s ease-in-out;
+	-ms-transition: color .2s ease-in-out;
+	transition: color .2s ease-in-out;
+}
+
+ul#nav li a:active { background-color: transparent !important; }
+ul#nav li.current a { color: #fe6928; }
+
+
+/* ------------------------------------------------------------------ */
+/* c. unitI Section
+/* ------------------------------------------------------------------ */
+
+#unitI {
+   background: #000524;
+   padding-top: 96px;
+   padding-bottom: 66px;
+   overflow: hidden;
+}
+
+#unitI a, #unitI a:visited  { color: #fff; }
+#unitI a:hover, #unitI a:focus { color: #0762f9; }
+
+#unitI h2 {
+   font: 22px/30px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 12px;
+}
+#unitI p {
+   line-height: 30px;
+   color: #ccc;
+}
+#unitI .unit-pic {
+   position: relative;
+   width: 260px;
+   height: 400px;
+   border-radius: 10%;
+}
+#unitI .contact-details { width: 41.66667%; }
+#unitI .download {
+   width: 58.33333%;
+   padding-top: 6px;
+}
+#unitI .main-col { padding-right: 5%; }
+#unitI .download .button {
+   margin-top: 6px;
+   background: #444;
+}
+#unitI .download .button:hover {
+   background: #fff;
+   color: #2B2B2B;
+}
+#unitI .download .button i {
+   margin-right: 15px;
+   font-size: 20px;
+}
+
+/* ------------------------------------------------------------------ */
+/* c. unitII Section
+/* ------------------------------------------------------------------ */
+
+#unitII {
+   background: whitesmoke;
+   padding-top: 96px;
+   padding-bottom: 66px;
+   overflow: hidden;
+}
+
+#unitII a, #unitII a:visited  { color: #fff; }
+#unitII a:hover, #unitII a:focus { color: #0762f9; }
+
+#unitII h2 {
+   font: 22px/30px 'opensans-bold', sans-serif;
+   color: black;
+   margin-bottom: 12px;
+}
+#unitII p {
+   line-height: 30px;
+   color: rgb(73, 73, 73);
+}
+#unitII .unit-pic {
+   position: relative;
+   width: 310px;
+   height: 400px;
+   border-radius: 10%;
+}
+#unitII .contact-details { width: 41.66667%; }
+#unitII .download {
+   width: 58.33333%;
+   padding-top: 6px;
+}
+#unitII .main-col { padding-right: 5%; }
+#unitII .download .button {
+   margin-top: 6px;
+   background: #444;
+}
+#unitII .download .button:hover {
+   background: #fff;
+   color: #2B2B2B;
+}
+#unitII .download .button i {
+   margin-right: 15px;
+   font-size: 20px;
+}
+
+/* ------------------------------------------------------------------ */
+/* c. unitIII Section
+/* ------------------------------------------------------------------ */
+
+#unitIII {
+   background: #230024;
+   padding-top: 96px;
+   padding-bottom: 66px;
+   overflow: hidden;
+}
+
+#unitIII a, #unitIII a:visited  { color: #fff; }
+#unitIII a:hover, #unitIII a:focus { color: #0762f9; }
+
+#unitIII h2 {
+   font: 22px/30px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 12px;
+}
+#unitIII p {
+   line-height: 30px;
+   color: #ccc;
+}
+#unitIII .unit-pic {
+   position: relative;
+   width: 400px;
+   height: 400px;
+   border-radius: 10%;
+}
+#unitIII .contact-details { width: 41.66667%; }
+#unitIII .download {
+   width: 58.33333%;
+   padding-top: 6px;
+}
+#unitIII .main-col { padding-right: 5%; }
+#unitIII .download .button {
+   margin-top: 6px;
+   background: #444;
+}
+#unitIII .download .button:hover {
+   background: #fff;
+   color: #2B2B2B;
+}
+#unitIII .download .button i {
+   margin-right: 15px;
+   font-size: 20px;
+}
+
+/* ------------------------------------------------------------------ */
+/* c. unitIV Section
+/* ------------------------------------------------------------------ */
+
+#unitIV {
+   background: rgb(255, 216, 239);
+   padding-top: 96px;
+   padding-bottom: 66px;
+   overflow: hidden;
+}
+
+#unitIV a, #unitIV a:visited  { color: #fff; }
+#unitIV a:hover, #unitIV a:focus { color: #0762f9; }
+
+#unitIV h2 {
+   font: 22px/30px 'opensans-bold', sans-serif;
+   color: black;
+   margin-bottom: 12px;
+}
+#unitIV p {
+   line-height: 30px;
+   color: rgb(73, 73, 73);
+}
+#unitIV .unit-pic {
+   position: relative;
+   width: 310px;
+   height: 400px;
+   border-radius: 10%;
+}
+#unitIV .contact-details { width: 41.66667%; }
+#unitIV .download {
+   width: 58.33333%;
+   padding-top: 6px;
+}
+#unitIV .main-col { padding-right: 5%; }
+#unitIV .download .button {
+   margin-top: 6px;
+   background: #444;
+}
+#unitIV .download .button:hover {
+   background: #fff;
+   color: #2B2B2B;
+}
+#unitIV .download .button i {
+   margin-right: 15px;
+   font-size: 20px;
+}
+
+/* ------------------------------------------------------------------ */
+/* i. Footer
+/* ------------------------------------------------------------------ */
+
+footer {
+   padding-top: 48px;
+   margin-bottom: 48px;
+   color: #303030;
+   font-size: 14px;
+   text-align: center;
+   position: relative;
+}
+
+footer a, footer a:visited { color: #525252; }
+footer a:hover, footer a:focus { color: #fff; }
+
+/* copyright */
+footer .copyright {
+    margin: 0;
+    padding: 0;
+ }
+footer .copyright li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    line-height: 24px;
+}
+.ie footer .copyright li {
+   display: inline;
+}
+footer .copyright li:before {
+    content: "\2022";
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #095153;
+}
+footer .copyright  li:first-child:before {
+    display: none;
+}
+
+/* social links */
+footer .social-links {
+   margin: 18px 0 30px 0;
+   padding: 0;
+   font-size: 30px;
+}
+footer .social-links li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-left: 42px;
+    color: #F06000;
+}
+
+footer .social-links li:first-child { margin-left: 0; }
+
+/* Go To Top Button */
+#go-top {
+	position: absolute;
+	top: -24px;
+   left: 50%;
+   margin-left: -30px;
+}
+#go-top a {
+	text-decoration: none;
+	border: 0 none;
+	display: block;
+	width: 60px;
+	height: 60px;
+	background-color: #525252;
+
+	-webkit-transition: all 0.2s ease-in-out;
+   -moz-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   -ms-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
+
+   color: #fff;
+   font-size: 21px;
+   line-height: 60px;
+ 	border-radius: 100%;
+}
+#go-top a:hover { background-color: #0F9095; }
+
+
+.social .btn:first-child{
+   margin-right: 30px;
+}
+.social .btn{
+   padding-left: 30px;
+   padding-right: 30px; 
+}
+.social .btn i{
+   margin-right: 15px;
+}
+.introduction-btn{
+   background-color: #1abc9c !important;
+}
+.units-btn{
+   background-color: #34495e !important;
+}

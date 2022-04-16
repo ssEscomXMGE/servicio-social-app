@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/servicio-social-app/static/css/main.35726d55.chunk.css",
+    "main.js": "/servicio-social-app/static/js/main.c7d43e1d.chunk.js",
+    "main.js.map": "/servicio-social-app/static/js/main.c7d43e1d.chunk.js.map",
+    "runtime-main.js": "/servicio-social-app/static/js/runtime-main.49a784c2.js",
+    "runtime-main.js.map": "/servicio-social-app/static/js/runtime-main.49a784c2.js.map",
+    "static/js/2.f469201d.chunk.js": "/servicio-social-app/static/js/2.f469201d.chunk.js",
+    "static/js/2.f469201d.chunk.js.map": "/servicio-social-app/static/js/2.f469201d.chunk.js.map",
+    "static/js/3.620f9876.chunk.js": "/servicio-social-app/static/js/3.620f9876.chunk.js",
+    "static/js/3.620f9876.chunk.js.map": "/servicio-social-app/static/js/3.620f9876.chunk.js.map",
+    "index.html": "/servicio-social-app/index.html",
+    "static/css/main.35726d55.chunk.css.map": "/servicio-social-app/static/css/main.35726d55.chunk.css.map",
+    "static/js/2.f469201d.chunk.js.LICENSE.txt": "/servicio-social-app/static/js/2.f469201d.chunk.js.LICENSE.txt",
+    "static/media/happy.5f8a124e.jpg": "/servicio-social-app/static/media/happy.5f8a124e.jpg",
+    "static/media/love.8b7fd8b2.jpg": "/servicio-social-app/static/media/love.8b7fd8b2.jpg",
+    "static/media/smile.28aa0e2c.jpg": "/servicio-social-app/static/media/smile.28aa0e2c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.49a784c2.js",
+    "static/js/2.f469201d.chunk.js",
+    "static/css/main.35726d55.chunk.css",
+    "static/js/main.c7d43e1d.chunk.js"
+  ]
+}
