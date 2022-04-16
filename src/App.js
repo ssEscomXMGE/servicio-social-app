@@ -10,8 +10,8 @@ export default function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/unit-drawer" element={<UnitDrawer />} />
+          <Route path="/servicio-social-app" element={<Home />} />
+          <Route path="/servicio-social-app/unit-drawer" element={<UnitDrawer />} />
           <Route path="/:pageName" element={<PageNotFound />}></Route>
         </Routes>
       </BrowserRouter>
